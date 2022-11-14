@@ -3,9 +3,10 @@ import { motion, AnimateSharedLayout, AnimatePresence } from "framer-motion";
 import "./sass/main.scss";
 
 // Components
+import Loader from "./components/Loader";
 import Header from "./components/Header";
 import Banner from "./components/Banner";
-import Loader from "./components/Loader";
+
 
 function App() {
   const [loading, setLoading] = useState(true);

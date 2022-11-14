@@ -1,5 +1,5 @@
 {
-  "name": "code",
+  "name": "brand-experience-studio",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://jsonfm.github.io",
@@ -19,7 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
